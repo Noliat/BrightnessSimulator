@@ -1,0 +1,60 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Definição das cores Light -->
+
+    <Color x:Key="BackgroundColor.Light"> #fff </Color>
+    <Color x:Key="ForegroundColor.Light"> #333333 </Color>
+    <Color x:Key="HyperlinkForegroundColor.Light"> #000 </Color>
+    <Color x:Key="BorderBrush.Light"> #AAFFFFFF </Color>
+    <Color x:Key="AcrylicBrush.Light">#c0ACACAC</Color>
+    <Color x:Key="LightBlurColor">#d0DCDCDC</Color>
+    
+    <!-- Cores dark contraste para os icones path -->
+    <Color x:Key="Icon.Background.Light.Color"> #000 </Color>
+
+    <!-- Cores light pra o slid controle -->
+    <Color x:Key="SliderThumb.Static.Light.Transparent.Color"> Transparent </Color>
+    <Color x:Key="SliderThumb.Static.Light.Background.Color">#DCDCDC </Color>
+    <Color x:Key="SliderThumb.Static.Light.Background2.Color">#1E90FF </Color>
+    <Color x:Key="SliderThumb.Static.Light.Border.Color">#DCDCDC </Color>
+    <Color x:Key="SliderThumb.MouseOver.Light.Background.Color">#1C1C1C </Color>
+    <Color x:Key="SliderThumb.MouseOver.Light.Border.Color">#1C1C1C </Color>
+    <Color x:Key="SliderThumb.Pressed.Light.Background.Color">#DCDCDC </Color>
+    <Color x:Key="SliderThumb.Pressed.Light.Border.Color">#1E90FF </Color>
+    <Color x:Key="SliderThumb.Disabled.Light.Background.Color">#D3D3D3 </Color>
+    <Color x:Key="SliderThumb.Disabled.Light.Border.Color">#D3D3D3 </Color>
+    <Color x:Key="SliderThumb.Track.Light.Background.Color">#DCDCDC </Color>
+    <Color x:Key="SliderThumb.Track.Light.Background2.Color">#1E90FF  </Color>
+    <Color x:Key="SliderThumb.Track.Light.Border.Color">#DCDCDC </Color>
+    <Color x:Key="SliderThumb.Track.Increase.Light.Color">#DCDCDC </Color>
+
+    <!-- Definição das cores Dark -->
+    <Color x:Key="BackgroundColor.Dark"> #000 </Color>
+    <Color x:Key="ForegroundColor.Dark"> #fff </Color>
+    <Color x:Key="HyperlinkForegroundColor.Dark"> #fff </Color>
+    <Color x:Key="BorderBrush.Dark"> #AAfffff3 </Color>
+    <Color x:Key="AcrylicBrush.Dark">#C0DCECFC</Color>
+    <Color x:Key="DarkBlurColor">#d01e1e1e</Color>
+
+    <!-- Cores light contraste para os icones path -->
+    <Color x:Key="Icon.Background.Dark.Color">#fff </Color>
+    
+    <!-- Cores dark para o slid controle -->
+    <Color x:Key="SliderThumb.Static.Dark.Transparent"> Transparent </Color>
+    <Color x:Key="SliderThumb.Static.Dark.Background.Color">#DCDCDC</Color>
+    <Color x:Key="SliderThumb.Static.Dark.Background2.Color">#4169E1 </Color>
+    <Color x:Key="SliderThumb.Static.Dark.Border.Color">#DCDCDC </Color>
+    <Color x:Key="SliderThumb.MouseOver.Dark.Background.Color">#FFDCECFC </Color>
+    <Color x:Key="SliderThumb.MouseOver.Dark.Border.Color">#4169E1 </Color>
+    <Color x:Key="SliderThumb.Pressed.Dark.Background.Color">#DCDCDC </Color>
+    <Color x:Key="SliderThumb.Pressed.Dark.Border.Color"> #DCDCDC </Color>
+    <Color x:Key="SliderThumb.Disabled.Dark.Background.Color">#D3D3D3</Color>
+    <Color x:Key="SliderThumb.Disabled.Dark.Border.Color">#D3D3D3 </Color>
+    <Color x:Key="SliderThumb.Track.Dark.Background.Color">#DCDCDC </Color>
+    <Color x:Key="SliderThumb.Track.Dark.Background2.Color">#4169E1 </Color>
+    <Color x:Key="SliderThumb.Track.Dark.Border.Color">#DCDCDC </Color>
+    <Color x:Key="SliderThumb.Track.Increase.Dark.Color">#DCDCDC </Color>
+
+</ResourceDictionary>
+

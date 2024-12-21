@@ -1,0 +1,31 @@
+﻿<Window x:Class="BrightnessSimulator.Win.Opaco"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BrightnessSimulator.Win"
+        xmlns:local1="clr-namespace:BrightnessSimulator.Class.Converter" 
+        xmlns:local2="clr-namespace:BrightnessSimulator.Class.ViewModel" 
+        mc:Ignorable="d"
+        Topmost="True"
+        WindowStyle="None" 
+        ResizeMode="NoResize"
+        AllowsTransparency="True"
+        ShowInTaskbar="False"
+        Background="Black"
+        Height="1080" Width="1920">
+
+    <!-- Declare Window.Resources primeiro -->
+    <Window.Resources>
+        <local1:SliderToOpacityConverter x:Key="SliderToOpacityConverter"/>
+    </Window.Resources>
+
+    <!-- Agora use o StaticResource -->
+    <Window.Opacity>
+        <Binding Path="SliderValue" Converter="{StaticResource SliderToOpacityConverter}"/>
+    </Window.Opacity>
+
+    <Window.DataContext>
+        <local2:MainViewModel/>
+    </Window.DataContext>
+</Window>
